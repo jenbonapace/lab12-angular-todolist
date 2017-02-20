@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> On oUr Own</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        h3 {
+            color: black;
+            font-size: : 40px;
+        }
+    </style>
+</head>
+
+<body ng-app>
+
+    <h3> The Spice Girls </h3>
+    <div ng-init="spiceGirls=['Posh', 'Baby', 'Ginger', 'Scary','Sporty']">
+        <ul>
+            <li ng-repeat="spice in spiceGirls">{{spice }}
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+</body>
+
+</html>

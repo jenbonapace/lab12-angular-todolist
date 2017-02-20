@@ -1,0 +1,90 @@
+Assessment Two
+Jennifer Bonapace
+
+1. #total{
+}
+
+2. Ways to List Color: Names/keywords,- blue;
+ RGB, 650 33 124
+rgba values(0-255red,0-255green,0-255,blue 0-1 opacity)
+ and hexidecimal #0000FF
+
+3. Three Units of measure are: 
+
+Pixels(px); single unit based on pixel size. used for borders or to specifiy height and width on images. 
+Em(s); This is based on the measure of a letter m of a partiucalr font. Good for use when in mobile design
+Percentages; These help keep things relative to the other units in the container.
+
+4. 100+10+10= total width is 120 px;
+
+5.  element { style: inline block;
+}
+chnage to {style: block;}
+
+___> this is not right. We will get the answers this weekend. 
+6. var Users;
+
+function(Users){
+console.log(“Dogs are the best”)};
+
+
+7. Six datatypes in Javascript are:
+Boolean
+NaN/NULL
+String 
+Object 
+Function 
+Number
+--ARRAY
+
+8. Falsy statements include: False, Null, Undefined(""), NaN, 
+
+
+9. variable X ="isLoggedIn"
+
+Function X =
+
+ Var i;
+if fucntion(i) 
+returns is 
+10.
+
+
+
+_//___________> super close there. Not quite. 
+
+
+Create a for loop that logs the integers from 1 to 33 to the console
+var=i;
+For (var i=< 33;var=0; i++){
+console.log(var i;)}
+
+11.function createEntry()11.Declare a function called createEntry() that accepts a parameter called entry. Inside
+the body of the function, return the parameter entry. Call the function with “Grant” as
+the parameter
+
+12. Declare a variable called teamJavaScript, initialize it as an array of strings with the
+values “Adam”, “Anna”, “David”, and “Grant”. Use the forEach method to log each
+element of the array to the console
+
+var teamJavaScript
+Array team JavaScript = [
+13.
+ var myInfo;
+
+Declare a variable called myInfo, initialize it as an object with the properties firstName
+set to your first name as a string, lastName set to your last name as a string, and age
+set to your age as a number
+
+
+
+
+14.
+
+15.,16 grand will be printed  because when the function it is defined outside the variable and accessible to the outside. 
+Whereas in #16 it becomes undefined because the varibale is not avaiable outside of the function and so the function has nothing it can print.
+
+
+17  var Phonebook=[name,phone]
+
+

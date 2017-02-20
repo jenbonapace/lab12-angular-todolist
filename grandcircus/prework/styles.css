@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<style type="text/css">
+<title> color and style </title>
+
+#nav {display:inline;color:green; text-shadow: 20px;}
+ul.topnav{
+  list-style-type: none;
+  overflow:hidden;
+  background-color: black;
+}
+ul.topnav.li {float: left;}
+ul.topnav.li a{
+  display: inline-block;
+   color: pink;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   transition: 0.3s;
+   font-size: 17px;:
+}
+ul.topnav li a:hover {background-color: yellow;}
+ul.topnav.li icon {display:none;}
+
+
+    body {
+        background-color: lightblue;
+        color:black;
+        padding:inherit;
+        }
+
+h1   {color: black;
+  background-color: hsla(290,60%,70%,0.3);
+  text-align: center;}
+
+  h2 {font: ;
+      font size:60;
+      text-align: center;
+      }
+  h3 {color:green;
+      border-left: 10px;
+      border-bottom-style: double;
+    text-align: center;}
+
+p1    {font-family: verdana;
+      font-size: 20px;
+      color: blue;
+      text-align: center;
+      border-color: blue;
+      border-bottom: bold;}
+
+
+p2 {color:green;
+    text-align: center;
+    font-size: 25;
+  border-spacing:25px; }
+
+    ol. {
+    list-style-type: upper-roman;
+    align-items:baseline;;
+}
+
+blockquote {
+word-wrap margin-top: center;
+  background-color: lightblue;
+  color:green;
+  font-size: 30;
+   border-bottom: 10px;
+ margin-left:5px;}
+
+
+footer {
+    display: block;
+  color: pink;
+background-color: blue;}
+
+
+
+</style>
+</head>
+</body>
