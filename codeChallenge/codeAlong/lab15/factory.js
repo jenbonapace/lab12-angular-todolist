@@ -1,0 +1,4 @@
+app.factory('factory', function(){
+
+
+   }); 
