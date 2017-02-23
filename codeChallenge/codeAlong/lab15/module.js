@@ -1,4 +1,4 @@
-var app = angular.module('PP', []);
+var app = angular.module('Module', []);
 
 //re write this for set up for facotry!!
 
