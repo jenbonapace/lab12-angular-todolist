@@ -4,22 +4,15 @@ var app = angular.module('PP', []);
 
 var app = angular.module('Module', ['ngRoute']);
 app.config(function($routeProvider, $locationProvider){
-  $routeProvider .when('/dog', {
-    controller:"lab14controllera",
-    templateUrl:"dog.html"
+  $routeProvider .when('/form.html' {
+    controller:"controller",
+    templateUrl:""
   })
-  .when("/cat", {
-    controller: "lab14controllera",
-    templateUrl: "cat.html"
+  .when("/", {
+    controller: "controller2",
+    templateUrl: "/finalmadlib.html"
   })
-  .when("/fish", {
-    controller: "lab14controllera",
-    templateUrl: "fish.html"
-})
-.when("/horse", {
-  controller: "lab14controllera",
-  templateUrl: "horse.html"
-})
-.otherwise({redirectTo:"indexlab14.html"});
+
+.otherwise({redirectTo:"form.html"});
 $locationProvider.hashPrefix('');
 });
